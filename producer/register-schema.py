@@ -12,7 +12,7 @@ class User(BaseModel):
     country: str
     age: int
     dob: int
-    #This is addition to test changes in codeowners again with changed colloborator sravanti..
+    #This is addition to test changes in codeowners again with changed colloborator sravanti
 
 
 schema_id = client.register("USERS-key", User.schema_json(), schema_type="JSON")
